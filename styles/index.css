@@ -231,19 +231,21 @@ img {
     color: #111111;
     font-size: 22px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .awards__site {
     color: #111111;
     font-size: 22px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .awards__ui {
     color: #111111;
     font-size: 16px;
     grid-column: 4/5;
-    margin-top: 18px;
+    margin-top: 38px;
 }
 
 .awards__ui>p {
@@ -254,7 +256,7 @@ img {
     color: #111111;
     font-size: 16px;
     text-align: end;
-    margin-top: 18px;
+    margin-top: 38px;
 }
 
 .awards__ui-info {
@@ -279,4 +281,9 @@ img {
 
 .awards__template>p {
     line-height: 1.6;
+}
+
+.awards__date--two {
+    text-align: end;
+    margin-top: 18px;
 }
