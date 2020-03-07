@@ -103,11 +103,11 @@ body {
     grid-gap: 10px; 
 }
 
-.image {
+img {
     width: 100%;
-    height: max-content;
+    height: 100%;
     overflow: hidden;
-} 
+}
 
 .column-left {
     grid-column: 1/4;
