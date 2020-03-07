@@ -186,7 +186,6 @@ img {
     color: #111111;
     font-size: 28px;
     font-weight: bold;
-    margin-right: 90px;
     line-height: 1.3;
 }
 
@@ -215,4 +214,69 @@ img {
 
 .branding {
     margin-top: -25px;
+}
+
+.grid__awards {
+    max-width: 1110px;
+    width: 100%;
+    border-top: 1px solid black;
+    margin-top: 100px;
+    margin-left: 125px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.awards {
+    color: #111111;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.awards__site {
+    color: #111111;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.awards__ui {
+    color: #111111;
+    font-size: 16px;
+    grid-column: 4/5;
+    margin-top: 18px;
+}
+
+.awards__ui>p {
+    line-height: 1.6;
+}
+
+.awards__date {
+    color: #111111;
+    font-size: 16px;
+    text-align: end;
+    margin-top: 18px;
+}
+
+.awards__ui-info {
+    color: #111111;
+    font-size: 16px;
+    grid-column: 4/5;
+}
+
+.awards__best {
+    color: #111111;
+    font-size: 21px;
+    font-weight: bold;
+    grid-column: 2/3;
+}
+
+.awards__template {
+    color: #111111;
+    font-size: 16px;
+    grid-column: 4/5;
+    margin-top: 18px;
+}
+
+.awards__template>p {
+    line-height: 1.6;
 }
