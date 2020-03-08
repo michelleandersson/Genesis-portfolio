@@ -90,6 +90,8 @@ body {
 }
 
 .main__form {
+    margin-top: 40px;
+    margin-left: 160px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -97,11 +99,67 @@ body {
 }
 
 input {
+    width: 350px;
     border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+input:focus {
+    background-color: rgba(74, 80, 242, 0.61); 
+}
+
+input:hover {
+    background-color: rgba(74, 80, 242, 0.61); 
 }
 
 textarea {
+    width: 350px;
     border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea:focus {
+    background-color: rgba(74, 80, 242, 0.61);
+}
+
+textarea:hover {
+    background-color: rgba(74, 80, 242, 0.61); 
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.input {
+    font-size: 16px;
+    color: #111111;
+}
+
+:placeholder-shown {
+    font-size: 14px;
+    color: #11111193;
+}
+
+.button {
+    margin-top: 40px;
+    max-width: 125px;
+    width: 100%;
+    height: 50px;
+    background-color: #4A4FF2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgba(74, 80, 242, 0.61);
+    color: #111111;
+    text-decoration: underline;
 }
 
 .footer {
