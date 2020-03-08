@@ -162,6 +162,13 @@ textarea:hover {
     text-decoration: underline;
 }
 
+.map__img {
+    max-width: 1130px;
+    width: 100%;
+    margin-top: 160px;
+    margin-left: 125px;
+}
+
 .footer {
     border-top: 1px solid black;
     max-width: 1110px;
@@ -171,7 +178,7 @@ textarea:hover {
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 126px;
-    margin-top: 130px;
+    margin-top: 110px;
 }
 
 .nav--footer {
