@@ -21,7 +21,6 @@ body {
 
 .logo {
     max-width: 90px;
-    width: 100%;
 }
 
 .logo:hover {
@@ -160,7 +159,6 @@ body {
 
 .logo--footer {
     max-width: 90px;
-    width: 100%;
 }
 
 .logo--footer:hover {
