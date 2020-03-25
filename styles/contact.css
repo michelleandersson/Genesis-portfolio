@@ -162,9 +162,9 @@ textarea:hover {
     text-decoration: underline;
 }
 
-.map__img {
-    max-width: 1130px;
-    width: 100%;
+.map {
+    width: 1130px;
+    height: 570px;
     margin-top: 160px;
     margin-left: 125px;
 }
