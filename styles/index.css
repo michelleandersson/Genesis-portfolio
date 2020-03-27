@@ -8,7 +8,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    overflow-x: hidden;
 }
 
 .nav {
@@ -442,6 +441,13 @@ img {
     text-decoration: none;
     margin-right: 30px;
 } 
+
+.nav__link--footer>a:hover {
+    background-color: #4A4FF2;
+    border-radius: 5px;
+    text-decoration: underline;
+    color: rgb(241, 240, 240);
+}
 
 .logo--footer {
     max-width: 90px;
