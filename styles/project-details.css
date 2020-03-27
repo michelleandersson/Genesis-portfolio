@@ -1,5 +1,9 @@
 body {
     font-family: 'Muli', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header {
@@ -73,12 +77,18 @@ body {
     color: rgb(241, 240, 240);
 }
 
+.main__container {
+    max-width: 1110px;
+    width: 100%;
+}
+
 .main {
     width: 100%;
-    margin-left: 125px;
+    box-sizing: border-box;
     margin-top: 110px;
+    padding: 0 20px;
     display: inline-flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
 }
 
