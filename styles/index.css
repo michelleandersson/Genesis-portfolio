@@ -8,12 +8,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    overflow-x: hidden;
 }
 
 .nav {
     max-width: 1110px;
     width: 100%;
-    margin: 61px 20px 0px 20px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,10 +63,7 @@ body {
 .main {
     max-width: 1110px;
     width: 100%;
-    /*display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;*/
+    overflow-x: hidden;
 }
 
 .main__info {
@@ -72,8 +72,9 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin: 0 20px;
+    box-sizing: border-box;
     margin-top: 100px;
+    padding: 0 20px;
 }
 
 .main__container {
@@ -117,7 +118,9 @@ body {
 .grid__position {
     max-width: 1110px;
     width: 100%;
-    margin: 100px 20px 0px 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 0 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -200,7 +203,9 @@ img {
 .services__container {
     max-width: 1110px;
     width: 100%;
-    margin: 90px 20px 0px 20px; 
+    box-sizing: border-box;
+    margin-top: 90px;
+    padding: 0 20px; 
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -262,17 +267,28 @@ img {
     .services__info {
         font-size: 16px;
     }
-}    
+}  
 
-.grid__awards {
+.awards__container {
     max-width: 1110px;
     width: 100%;
     border-top: 1px solid black;
+    box-sizing: border-box;
     margin-top: 100px;
-    margin-left: 125px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.grid__awards {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px; 
 }
 
 .awards {
@@ -336,24 +352,60 @@ img {
     margin-top: 18px;
 }
 
+@media screen and (max-width: 460px) {
+    .awards {
+        font-size: 16px;
+    }
+
+    .awards__site {
+        font-size: 16px;
+    }
+}
+
 .footer {
-    border-top: 1px solid black;
     max-width: 1110px;
     width: 100%;
-    /*height: 140px;*/
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 20px; 
+    border-top: 1px solid black;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 126px;
 }
 
 .nav--footer {
     margin-top: 50px;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+.nav--footer--left {
+    margin-top: 20px;
+}    
+
+.nav--footer--right {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.nav__list--footer {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav__link--footer>a {
+    color: #111111;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+} 
 
 .logo--footer {
     max-width: 90px;
@@ -363,5 +415,5 @@ img {
 .social--footer {
     max-width: 95px;
     width: 100%;
-    margin-left: 50px;
+
 }
