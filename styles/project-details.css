@@ -206,6 +206,7 @@ img {
 
 .nav--footer--right {
     display: inline-flex;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -241,5 +242,4 @@ img {
 .social--footer {
     max-width: 95px;
     width: 100%;
-
 }
