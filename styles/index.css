@@ -114,10 +114,16 @@ body {
     align-self: flex-end;
 }
 
-.grid__container {
-    margin-top: 144px;
-    margin-left: 125px;
+.grid__position {
     max-width: 1110px;
+    width: 100%;
+    margin: 100px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.grid__container {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(9 1fr);
@@ -194,7 +200,6 @@ img {
 .grid__services-container {
     max-width: 1079px;
     width: 100%;
-    /*height: 106px;*/
     margin-left: 125px;
     margin-top: 90px;
     display: grid;
