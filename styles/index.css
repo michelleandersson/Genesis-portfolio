@@ -20,6 +20,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav--left {
+    margin-top: 20px;
+}
+
+.nav--right {
+    margin-top: 20px;
 }
 
 .logo {
@@ -359,6 +368,33 @@ img {
 
     .awards__site {
         font-size: 16px;
+    }
+
+    .awards__ui {
+        font-size: 12px;
+    }
+
+    .awards__date {
+        font-size: 12px;
+    }
+
+    .awards__ui-info {
+        font-size: 12px; 
+    }
+
+    .awards__best {
+        font-size: 16px;
+    }
+
+    .awards__template {
+        font-size: 12px;  
+    }
+
+    .awards__date--two {
+        font-size: 12px; 
+    }
+    .awards__date .awards__date--two {
+    flex-wrap: wrap;
     }
 }
 
